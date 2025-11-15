@@ -1,5 +1,7 @@
 # Desktop-overlay-manager
 
+[![Tests](https://github.com/broven/Desktop-overlay-manager/actions/workflows/tests.yml/badge.svg)](https://github.com/broven/Desktop-overlay-manager/actions/workflows/tests.yml)
+
 - Draw rect on screen
 - Draw postion on screen
 - Get rect / position from DOM（Desk-overlay-manager）
