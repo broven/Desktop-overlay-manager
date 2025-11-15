@@ -9,27 +9,8 @@
 # Installation
 
 ```bash
-uv pip install desktop-overlay-manager
+uv add "git+https://github.com/Broven/Desktop-overlay-manager.git"
 ```
-
-> `uv` will automatically create an isolated virtualenv so that no global Python
-> packages are installed on your machine.
-
-## Install from GitHub
-
-To install the latest commit directly from your GitHub repository:
-
-```bash
-uv pip install "git+https://github.com/<your-github-user>/Desktop-overlay-manager.git"
-```
-
-Or with the built-in pip:
-
-```bash
-python -m pip install "git+https://github.com/broven/Desktop-overlay-manager.git"
-```
-
-Replace `<your-github-user>` with your actual GitHub username before running the command.
 
 # Quick start
 
