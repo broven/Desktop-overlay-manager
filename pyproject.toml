@@ -18,3 +18,8 @@ index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
 [build-system]
 requires = ["setuptools>=67", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
