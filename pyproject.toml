@@ -1,0 +1,20 @@
+[project]
+name = "desktop-overlay-manager"
+version = "0.1.0"
+description = "Tkinter overlays for drawing draggable rectangles and points"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+license = { file = "LICENSE" }
+keywords = ["tkinter", "overlay", "annotation", "gui"]
+
+[tool.setuptools.packages.find]
+include = ["desktop_overlay_manager"]
+namespaces = false
+
+[tool.uv]
+index-url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
